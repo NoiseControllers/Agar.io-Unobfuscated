@@ -1,0 +1,15 @@
+====================
+ Supported Versions
+====================
+
+1. Protocol 5
+-------------
+Original: src/og/Agar.io-5.js
+OG Implementations: AJS-development Client, Cigar, OGARio 1.3, AgarPlus 1.5
+UO Implementations: None.
+
+2. Protocol 7
+-------------
+Original: src/og/Agar.io-7.js
+OG Implementations: V72, Agar-Expose, OGARio 1.5, AgarPlus 1.9
+UO Implementations: None.
