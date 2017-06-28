@@ -8,7 +8,7 @@
   // Surprisingly a lot like Protocol 5, so let's use the same variable names
   
   // Modded wrapper
-  window.AgarV72 = {
+  wHandle.AgarV72 = {
     xtremecode: true,
     hooks: {},
     debug: true, // Change to false in production!
@@ -32,6 +32,17 @@
       y: 0,
       scale: 1
     },
+    disableRendering: false,
+    webSocketIP: "",
+    webSocketServer: null,
+    minScale: 1,
+    showStartupBackground: true,
+    aliveCellsList: [],
+    eatenCellsList: [],
+    drawScale: 1,
+    drawGrid: true,
+    enableDirectionSending: true,
+    simpleCellDraw: false,
     vector: (function() {
       function Vector(x, y) {
         if (!(this instanceof Vector)) {
