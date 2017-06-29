@@ -72,7 +72,7 @@
         return this;
       };
       
-      Vector.prototype.copyFrom = funtion(vector) {
+      Vector.prototype.copyFrom = function(vector) {
         this.x = vector.x;
         this.y = vector.y;
         return this;
